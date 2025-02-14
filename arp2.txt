@@ -1,0 +1,26 @@
+arp -a
+
+Interface: 10.100.12.92 --- 0x8
+  Internet Address      Physical Address      Type
+  10.100.12.26          04-d4-c4-f2-a1-d5     dynamic
+  10.100.12.80          90-1b-0e-85-e4-23     dynamic
+  10.100.12.91          a8-b1-3b-7d-86-c7     dynamic
+  10.100.12.126         98-ee-cb-1a-1d-7f     dynamic
+  10.100.12.207         48-4d-7e-9b-30-94     dynamic
+  10.100.12.232         d8-eb-97-22-98-d0     dynamic
+  10.100.12.254         14-58-d0-e5-6b-00     dynamic
+  10.100.12.255         ff-ff-ff-ff-ff-ff     static
+  224.0.0.2             01-00-5e-00-00-02     static
+  224.0.0.22            01-00-5e-00-00-16     static
+  224.0.0.251           01-00-5e-00-00-fb     static
+  224.0.0.252           01-00-5e-00-00-fc     static
+  239.255.255.250       01-00-5e-7f-ff-fa     static
+
+Interface: 172.18.0.1 --- 0x21
+  Internet Address      Physical Address      Type
+  172.18.15.255         ff-ff-ff-ff-ff-ff     static
+  224.0.0.2             01-00-5e-00-00-02     static
+  224.0.0.22            01-00-5e-00-00-16     static
+  224.0.0.251           01-00-5e-00-00-fb     static
+  239.255.255.250       01-00-5e-7f-ff-fa     static
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static
