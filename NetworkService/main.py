@@ -19,7 +19,7 @@ def server():
         tasks.append(client(client_socket))
 
 
-def client(client_socket, info=None):
+def client(client_socket):
     while True:
         yield ('read', client_socket)
         request = client_socket.recv(4096)
